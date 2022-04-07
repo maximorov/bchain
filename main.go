@@ -11,7 +11,8 @@ func main() {
 
 	chain.AddBlock("First block after Genesis")
 	chain.AddBlock("Second block after Genesis")
-	chain.AddBlock("third block after Genesis")
+	chain.AddBlock("Third block after Genesis")
+	chain.AddBlock("Fourth block after Genesis")
 
 	for _, block := range chain.Blocks {
 		fmt.Printf("Previous Hash: %x\n", block.PrevHash)
